@@ -2,6 +2,14 @@
 
 A React application that allows users to explore a collection of books. Users can filter books by category, view detailed information about each book, and potentially interact with the books in other ways.
 
+## Home Page
+
+![Home Page](images/Business.png)
+
+![Home Page](images/health.png)
+
+![Home Page](images/dropdown.png)
+
 ## Features
 
 *   **Book Filtering:** Users can filter books by category using a dropdown menu or other suitable UI elements.
