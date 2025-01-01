@@ -18,18 +18,10 @@ const BookCard = ({ book }) => {
         <p className="book-author">{book?.authors?.join(', ')}</p>
         <p className="book-published">{`Published: ${book.publishedDate}`}</p>
         <p className="book-country">{`Country: ${book.country}`}</p>
-        {/* <p className="book-description">{book.description?.slice(0, 10)}...</p> */}
         {book.categories && (
           <p className="book-categories">{`Categories: ${book?.categories.join(', ')}`}</p>
         )}
-        {/* <a
-          href={book?.infoLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="book-info-link"
-        >
-          More Info
-        </a> */}
+        
       </div>
     </div>
   );
