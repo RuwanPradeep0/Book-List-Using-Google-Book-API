@@ -1,0 +1,23 @@
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: var(--spacing-md);
+  margin-bottom: 3rem;
+}
+
+.search-icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-icon {
+  color: var(--text-secondary);
+  width: 1.5rem;
+  height: 1.5rem;
+}
